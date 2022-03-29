@@ -1,0 +1,179 @@
+:root{
+    --primary: #fc0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+P{
+    line-height: 1.2;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color:white;
+}
+h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p.read-btn{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+}
+.menu{
+    flex-basis: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ng-logo-border{
+    width: 20px;
+    height: 30px;
+    padding: 10px;
+}
+.ng-logo,.link-search,.link-renew,.link-menu{
+    display: none;
+}
+
+.link-login{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.link-subs{
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    background-image: linear-gradient(to left, black 50%, var(--primary) 50%);
+    transition: background-position .2s ease-in-out, color .2s ease-in-out;
+    color:white;
+    padding:1rem;
+}
+.link-subs:hover{
+    background-position: 0% 0;
+    color:black;
+}
+.link-arrows{
+    color: black;
+    margin-right: 20px;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sub-word{
+    border-bottom:2px solid var(--primary);
+    background-size: 100% 200%;
+    background-image:linear-gradient(to bottom, black 50%, var(--primary) 50%);
+    transition: background-position .1s ease-in-out, color .1s ease-in-out;
+}
+.sub-word:hover{
+    background-position: 0 100%;
+    color:black;
+    cursor:pointer;
+}
+.main-news{
+    position: relative;
+    margin-bottom: 20px;
+}
+.main-news-img{
+    height: 400px;
+}
+.main-news-img img{
+    height: 100%;
+}
+.main-news-text{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+.main-news-text p.title{
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+.main-news-text p.read-btn{
+    color: white;
+}
+
+.secondary-news{
+    background-color: white;
+    padding: 3px;
+
+}
+
+.secondary-news-img{
+
+}
+
+.secondary-news-text{
+    background-color: white;
+    padding: 10px;
+    margin-top: -5px;
+}
+.secondary-news-text h3{
+    color: gray;
+    padding-bottom: 0;
+}
+.secondary-news-text h3 span{
+    font-weight: 300;
+}
+.secondary-news-text p{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.secondary-news-text p.read-btn{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.picks-item{
+    display: grid;
+    grid-template-columns: 100px 30px;
+    margin-bottom: 20px;
+    column-gap: 30px;
+}
+.pick-item img{
+    width: 100px;
+    height: 100px;
+}
+.pick-text p{
+    color: white;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.picks-text p:hover{
+    text-decoration: underline;
+}
